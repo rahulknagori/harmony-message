@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  max-width: 1400px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  margin-top: 1rem;
+  max-width: 500px;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.mb--1 {
+  margin-bottom: 1rem;
+}
+
+.ml--1 {
+  margin-left: 1rem;
+}
+
+.loader {
+  color: rgb(232, 79, 79);
+}
+
+textarea {
+  max-width: 30rem;
+  padding: 1rem;
+  resize: none;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.5rem 1.2rem;
+  background-color: #0097a8;
+  border: none;
+  border-radius: 0.2rem;
+  color: #ffff;
+  font-weight: bold;
+}
+
+.delete {
+  color: rgb(241, 124, 124);
+}
+
+.message-card {
+  margin-top: 1rem;
+  max-width: 30rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #b0d4d8;
+}
+
+.message-card-header {
+  max-width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex-row {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
 }
