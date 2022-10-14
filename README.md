@@ -1,4 +1,6 @@
 Run npm install to install all the dependencies
+
+
 Run npm start to start the project
 
 The main logic of the project is inside the file Index.js (path - src/Pages/Index.jsx)
